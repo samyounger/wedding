@@ -1,0 +1,42 @@
+<nav>
+
+  {% if page.layout != "post" %}
+
+  <ul class="pageTop leftNav">
+    <li><a href="/">{{ site.title }}</a></li>
+  </ul>
+
+  {% endif %}
+
+  {% if page.layout == "post" %}
+
+  <ul class="middleNav">
+    <li>
+      <a href="{{ page.previous.url }}">
+        <i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li>
+      <a href="/blog" class="navbar-brand">All Posts</a>
+    </li>
+    <li>
+      <a href="{{ page.next.url }}">
+        <i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+
+  {% endif %}
+
+  {% if page.layout != "post" %}
+
+  <ul class="rightNav">
+    <li><a href="/">Home</a></li>
+    {% for page in site.pages %} {% if page.title %}
+    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+    {% endif %} {% endfor %}
+  </ul>
+
+  {% endif %}
+
+</nav>

@@ -1,0 +1,104 @@
+{
+  "blogPost": [
+    {
+      "author": "Darien Moody",
+      "date": 2016-2-25,
+      "type": "blog-post",
+      "title": "Heroku deployment without the app being at the repo root (in a subfolder)",
+      "url": "https://coderwall.com/p/ssxp5q/heroku-deployment-without-the-app-being-at-the-repo-root-in-a-subfolder"
+    },
+    {
+      "author": "Ben Vinegar",
+      "date": 2016-2-3,
+      "type": "blog-post",
+      "title": "How to write bulletproof function wrappers in JavaScript",
+      "url": "https://blog.sentry.io/2016/02/03/wrap-javascript-functions.html"
+    },
+    {
+      "author": "Leigh Halliday",
+      "date": 2015-11-19,
+      "type": "blog-post",
+      "title": "Architecting Rails Apps as Microservices",
+      "url": "https://blog.codeship.com/architecting-rails-apps-as-microservices/"
+    },
+    {
+      "author": "Nikola Todorovic",
+      "date": null,
+      "type": "blog-post",
+      "title": "Ruby metaprogramming is even cooler than it sounds",
+      "url": "https://www.toptal.com/ruby/ruby-metaprogramming-cooler-than-it-sounds"
+    },
+    {
+      "author": "Gavin Morrice",
+      "date": 2010-11-23,
+      "type": "blog-post",
+      "title": "Don't know metaprogramming in ruby?",
+      "url": "http://rubylearning.com/blog/2010/11/23/dont-know-metaprogramming-in-ruby/"
+    },
+    {
+      "author": "anon",
+      "date": 2014-6-15,
+      "type": "blog-post",
+      "title": "Charting with chartkick",
+      "url": "https://richonrails.com/articles/charting-with-chartkick"
+    },
+    {
+      "author": "Brandon Hilkert",
+      "date": 2014-3-24,
+      "type": "blog-post",
+      "title": "How to build a rails engine",
+      "url": "http://brandonhilkert.com/blog/how-to-build-a-rails-engine/"
+    },
+    {
+      "author": "Christopher Bach",
+      "date": 2014-2-2,
+      "type": "blog-post",
+      "title": "Ruby and rails reserved words",
+      "url": "http://www.rubymagic.org/posts/ruby-and-rails-reserved-words"
+    },
+    {
+      "author": "Ben Lewis",
+      "date": 2015-3-19,
+      "type": "blog-post",
+      "title": "Understanding rack apps and middleware",
+      "url": "https://blog.engineyard.com/2015/understanding-rack-apps-and-middleware"
+    },
+    {
+      "author": "bbatsov",
+      "date": null,
+      "type": "blog-post",
+      "title": "Ruy-style-guide",
+      "url": "https://github.com/bbatsov/ruby-style-guide"
+    },
+    {
+      "author": "bbatsov",
+      "date": null,
+      "type": "blog-post",
+      "title": "Rails-style-guide",
+      "url": "https://github.com/bbatsov/rails-style-guide"
+    },
+    {
+      "author": "Kamil Dziemianowicz",
+      "date": 2015-10-15,
+      "type": "blog-post",
+      "title": "Rails mountable engines",
+      "url": "https://www.amberbit.com/blog/2015/10/15/rails-mountable-engines/"
+    },
+    {
+      "author": "Ryen Stenberg",
+      "date": 2015-6-2,
+      "type": "blog-post",
+      "title": "Composable SQL queries in rails using areal",
+      "url": "https://www.viget.com/articles/composable-sql-queries-in-rails-using-arel"
+    }
+  ],
+  "books": [
+    {
+      "author": "Sandi Metz",
+      "date": 2012-9-15,
+      "type": "book",
+      "title": "Practical object-oriented design in ruby",
+      "url": "http://www.poodr.com/"
+    }
+  ]
+}

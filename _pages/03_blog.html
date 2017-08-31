@@ -1,0 +1,27 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<section id="blog">
+	<div class="content">
+		<h2>My blog</h2>
+		<p>These articles contain a series of my thoughts and notes I have written while learning programming languages for later reference.</p>
+
+		<input type="text" id="search_box" placeholder="Search posts" autocomplete="off" autofocus>
+
+		<ul id="search_results"></ul>
+
+		<ul id="defaultPostList">
+			{% for post in site.posts %}
+			<li>
+				<div class="postDate"><time>{{ post.date | date: "%b %-d, %Y" }}</time></div>
+				<div class="postHead">
+					<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
