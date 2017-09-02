@@ -1,0 +1,14 @@
+@import "foundation/foundation.min";
+
+// Variables
+@import "variables/colors";
+@import "variables/fonts";
+
+// Components
+@import "components/header";
+@import "components/footer";
+
+body {
+  background: lighten($background-color, 10%);
+  font-family: $font-stack;
+}
