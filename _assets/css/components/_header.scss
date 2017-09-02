@@ -7,7 +7,7 @@ header {
   background-size: cover;
   position: relative;
   .menu {
-    background: rgba($primary-color-light, 0.5);
+    background: rgba(lighten($light-color, 20%), 0.5);
   }
   h1 {
     position: absolute;
@@ -19,6 +19,14 @@ header {
     transform: translateY(-50%);
     text-transform: uppercase;
     margin: 0;
-    color: lighten($secondary-color-light, 20%);
+    color: lighten($light-color, 20%);
   }
+}
+
+@media only screen and (max-width: 500px) {
+
+   header h1 {
+      font-size: 60px;
+   }
+
 }

@@ -9,6 +9,6 @@
 @import "components/footer";
 
 body {
-  background: lighten($background-color, 10%);
+  background: lighten($light-color, 10%);
   font-family: $font-stack;
 }
