@@ -1,0 +1,41 @@
+<h2>location</h2>
+
+<p>The wedding ceremony will be at the Holy Trinity Church, Melrose, and the wedding reception will be at Whitslaid Farm</p>
+
+<p>Both are marked on the map below</p>
+
+<div id="map"></div>
+
+<script>
+function initMap() {
+
+  var locations = {
+    church: {
+      lat: 55.5994627,
+      lng: -2.731846
+    },
+    whitslaid: {
+      lat: 55.6929353,
+      lng: -2.6996447
+    }
+  };
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: locations.whitslaid
+  });
+
+  for(var place in locations) {
+    console.log(place);
+    new google.maps.Marker({
+      position: locations[place],
+      label: place,
+      map: map
+    })
+  }
+}
+</script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzClcIiPp8r9pe0GSvllBjnieGvU5JZOI&callback=initMap">
+</script>
