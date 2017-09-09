@@ -1,11 +1,31 @@
 .save-the-date {
-  form {
-    margin: 10px;
-    .children {
-      
+
+  // line sliding effect on h2
+  .sliding-middle-out {
+    text-align: center;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    cursor: pointer;
+    i {
+      color: $primary-color;
     }
-    .button {
-      width: 100%;
-    }
+  }
+  .sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+  }
+  .sliding-middle-out:hover:after {
+    width: 100%;
+    background: $primary-color-light;
+  }
+  .rsvp-form {
+    display: none;
   }
 }

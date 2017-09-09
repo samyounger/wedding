@@ -1,4 +1,7 @@
+@import "presets/reset";
 @import "foundation/foundation.min";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 // Variables
 @import "variables/colors";
@@ -6,12 +9,29 @@
 
 // Components
 @import "components/header";
+@import "components/about_us";
 @import "components/content";
 @import "components/map";
 @import "components/save_the_date";
+@import "components/photos";
 @import "components/footer";
 
 body {
-  background: lighten($light-color, 10%);
+  background: lighten($primary-color-light, 80%);
   font-family: $font-stack;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  font-weight: 100;
+  user-select: none;
+  cursor: default;
+}
+
+.content {
+  text-align: center;
+}
+
+p::selection {
+  background: $primary-color-light;
 }

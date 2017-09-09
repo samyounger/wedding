@@ -1,5 +1,6 @@
 header {
   height: 100vh;
+  width: 100vw;
   background: url("background_image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -7,19 +8,20 @@ header {
   background-size: cover;
   position: relative;
   .menu {
-    background: rgba(lighten($light-color, 20%), 0.5);
+    background: rgba(lighten($primary-color-light, 20%), 0.5);
   }
   h1 {
     position: absolute;
     width: 100%;
+    cursor: default;
     text-align: center;
     font-size: 100px;
     font-family: $font-stack;
+    font-weight: 100;
     top: 50%;
-    transform: translateY(-50%);
     text-transform: uppercase;
     margin: 0;
-    color: lighten($light-color, 20%);
+    color: lighten($primary-color-light, 20%);
   }
 }
 
