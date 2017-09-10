@@ -1,5 +1,10 @@
 .photos {
-  a {
-    font-size: 30px;
+  .dropbox {
+    display: inline-block;
+    text-align: left;
+    a {
+      font-size: 25px;
+      font-weight: 300;
+    }
   }
 }

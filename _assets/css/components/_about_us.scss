@@ -1,7 +1,14 @@
 .about-us {
-  .proposal-photo {
-    border-radius: 50%;
-    margin: 10px;
+  border-top: 1px solid $primary-color;
+  margin-top: 15px;
+  padding-top: 15px;
+  .portrait {
+    max-width: 200px;
+    margin: 10px auto;
+    .proposal-photo {
+      border: 1px solid $primary-color;
+      padding: 10px;
+    }
   }
   .proposal-beach {
     position: relative;
@@ -13,4 +20,18 @@
       transform: translate(-50%, -40%)
     }
   }
+}
+
+@media only screen
+and (max-width : 375px) {
+  .about-us {
+    .proposal-photo {
+      margin: 0;
+    }
+    .proposal-beach {
+      height: 150px;
+      img { transform: translate(-50%, -27%); }
+    }
+  }
+
 }

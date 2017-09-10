@@ -7,31 +7,25 @@
 @import "variables/colors";
 @import "variables/fonts";
 
+// Default settings
+@import "presets/defaults";
+
 // Components
 @import "components/header";
-@import "components/about_us";
-@import "components/content";
-@import "components/map";
 @import "components/save_the_date";
+@import "components/where_is_it";
+@import "components/where_to_stay";
+@import "components/about_us";
 @import "components/photos";
 @import "components/footer";
 
-body {
-  background: lighten($primary-color-light, 80%);
-  font-family: $font-stack;
-}
 
-h1, h2, h3, h4, h5 {
-  text-align: center;
-  font-weight: 100;
-  user-select: none;
-  cursor: default;
-}
-
-.content {
-  text-align: center;
-}
-
-p::selection {
-  background: $primary-color-light;
+@media only screen
+and (max-width : 375px) {
+  h2 {
+    font-size: 30px;
+  }
+  .save-the-date h2:first-child {
+    font-weight: 300;
+  }
 }
