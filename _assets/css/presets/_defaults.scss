@@ -9,6 +9,9 @@ html,body
   overflow-x: hidden;
   letter-spacing: 1px;
 
+  // used to prevent header image disappearing on scroll up
+  min-width: 100%;
+
   // allows smooth scrolling on iPhone
   overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
