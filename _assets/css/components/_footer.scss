@@ -7,4 +7,10 @@ footer {
     vertical-align: middle;
     margin-bottom: 0;
   }
+  p:first-child {
+    text-align: left;
+  }
+  p:last-child {
+    text-align: right;
+  }
 }
