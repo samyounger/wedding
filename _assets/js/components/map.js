@@ -22,10 +22,10 @@ function initMap() {
   };
 
   // prevent mobile map dragging on scroll
-  var isDraggable = $(document).width() > 480 ? true : false; // If document (your website) is wider than 480px, isDraggable = true, else isDraggable = false
+  // var isDraggable = $(document).width() > 480 ? true : false; // If document (your website) is wider than 480px, isDraggable = true, else isDraggable = false
 
   var map = new google.maps.Map(document.getElementById('map'), {
-    draggable: isDraggable,
+    // draggable: isDraggable,
     scrollwheel:  false
   });
 

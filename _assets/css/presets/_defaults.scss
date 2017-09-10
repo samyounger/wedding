@@ -8,6 +8,10 @@ html,body
   padding: 0px;
   overflow-x: hidden;
   letter-spacing: 1px;
+
+  // allows smooth scrolling on iPhone
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 h1, h2, h3, h4, h5 {
