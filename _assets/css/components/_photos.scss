@@ -9,7 +9,8 @@
   }
 
   #slider {
-    max-width: 900px;
+    max-height: 400px;
     margin: 50px auto;
+    a { background-size: contain; }
   }
 }
