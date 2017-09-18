@@ -17,4 +17,18 @@
   </div>
 
   <p>photo grid goes here</p>
+
+	<div id="slider">
+    {% image photos/dancing.jpg %}
+    {% image photos/DSC_0905.JPG %}
+    {% image photos/DSC_0927.JPG %}
+    {% image photos/DSC_0967.JPG %}
+  </div>
+
 </div>
+
+<script src="/bower_components/ideal-image-slider/ideal-image-slider.js"></script>
+<script>
+  var slider = new IdealImageSlider.Slider('#slider');
+  slider.start();
+</script>
