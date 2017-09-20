@@ -16,8 +16,3 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-
-iis_slider_array: []
-
-plugins_dir:
-  - ideal_image_slider

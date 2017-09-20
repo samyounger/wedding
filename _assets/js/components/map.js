@@ -13,7 +13,7 @@ function initMap() {
     whitslaid: {
       lat: 55.6929353,
       lng: -2.6996447,
-      image: "/assets/whitslaid.jpg",
+      image: "http://edinburgh.anglican.org/wp-content/uploads/2016/04/Holy-Trinity-Melrose.png",
       address_1: "Whitslaid Farm",
       address_2: "Lauder",
       address_3: "Berwickshire",
