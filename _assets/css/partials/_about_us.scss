@@ -11,13 +11,10 @@
     }
   }
   .proposal-beach {
-    position: relative;
-    object-fit: cover;
     height: 200px;
     overflow: hidden;
     img {
-      position: absolute;
-      transform: translate(-50%, -40%)
+      margin: -25%;
     }
   }
 }

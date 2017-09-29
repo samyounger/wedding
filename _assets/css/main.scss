@@ -10,14 +10,14 @@
 // Default settings
 @import "presets/defaults";
 
-// Components
-@import "components/header";
-@import "components/save_the_date";
-@import "components/where_is_it";
-@import "components/where_to_stay";
-@import "components/about_us";
-@import "components/photos";
-@import "components/footer";
+// Partials
+@import "partials/header";
+@import "partials/save_the_date";
+@import "partials/where_is_it";
+@import "partials/where_to_stay";
+@import "partials/about_us";
+@import "partials/photos";
+@import "partials/footer";
 
 
 @media only screen
