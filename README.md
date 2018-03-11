@@ -8,3 +8,11 @@ Published [HERE](http://samandcora.com)
 1. clone the repo.
 2. terminal `$ bundle install`
 3. terminal `$ jekyll s`
+
+---
+
+## Deploy
+
+The site is hosted on AWS S3. It is deployed using [s3_website](https://github.com/laurilehmijoki/s3_website).
+
+The website is deployed using s3_website push
