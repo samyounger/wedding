@@ -3,4 +3,3 @@ _site
 .jekyll-metadata
 s3_website.yml
 .env
-.asset-cache
