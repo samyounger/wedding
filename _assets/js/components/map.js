@@ -59,7 +59,6 @@ function initMap() {
         infowindow.setContent(content);
         infowindow.open(map, marker);
       }
-      infowindow.open(map, marker);
     })(marker));
 
     loc = new google.maps.LatLng(marker.position.lat(), marker.position.lng());
@@ -72,6 +71,7 @@ function initMap() {
 }
 
 function displayRoute(directionsService, directionsDisplay, locations) {
+  directionsDisplay.setOptions({suppressMarkers: true});
   directionsService.route({
     origin:      { lat: locations["church"].lat, lng: locations["church"].lng },
     destination: { lat: locations["whitslaid"].lat, lng: locations["whitslaid"].lng },
