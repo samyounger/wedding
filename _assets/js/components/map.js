@@ -4,7 +4,7 @@ function initMap() {
     church: {
       lat: 55.5994627,
       lng: -2.731846,
-      image: "http://edinburgh.anglican.org/wp-content/uploads/2016/04/Holy-Trinity-Melrose.png",
+      image: "https://edinburgh.anglican.org/wp-content/uploads/2016/04/Holy-Trinity-Melrose.png",
       address_1: "20 High Cross Avenue",
       address_2: "Melrose",
       address_3: "Berwickshire",
@@ -59,7 +59,6 @@ function initMap() {
         infowindow.setContent(content);
         infowindow.open(map, marker);
       }
-      infowindow.open(map, marker);
     })(marker));
 
     loc = new google.maps.LatLng(marker.position.lat(), marker.position.lng());
@@ -72,6 +71,7 @@ function initMap() {
 }
 
 function displayRoute(directionsService, directionsDisplay, locations) {
+  directionsDisplay.setOptions({suppressMarkers: true});
   directionsService.route({
     origin:      { lat: locations["church"].lat, lng: locations["church"].lng },
     destination: { lat: locations["whitslaid"].lat, lng: locations["whitslaid"].lng },

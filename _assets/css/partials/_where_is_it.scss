@@ -1,7 +1,18 @@
+address {
+  border: 1px solid rgba($primary-color, 0.3);
+  width: 20rem;
+  margin: 0 auto;
+  padding: 0.1rem;
+  p {
+    margin: 0;
+  }
+}
+
 #map {
   height: 400px;
   width: 100%;
   background-attachment:initial;
+  margin: 1rem 0;
   p {
     margin-bottom: 0;
   }
