@@ -4,7 +4,7 @@ function initMap() {
     church: {
       lat: 55.5994627,
       lng: -2.731846,
-      image: "http://edinburgh.anglican.org/wp-content/uploads/2016/04/Holy-Trinity-Melrose.png",
+      image: "https://edinburgh.anglican.org/wp-content/uploads/2016/04/Holy-Trinity-Melrose.png",
       address_1: "20 High Cross Avenue",
       address_2: "Melrose",
       address_3: "Berwickshire",
