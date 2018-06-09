@@ -1,30 +1,21 @@
-{% include head.html %}
-
-<body>
-  {% include home/header.html %}
-
-  <div class="main">
-    {% include home/introduction.html %}
-    {% include home/where_is_it.html %}
-    {% include home/people.html %}
-    {% include home/where_to_stay.html %}
-    {% include home/transport.html %}
-    {% include home/meetups.html %}
-    {% include home/gifts.html %}
-    {% include home/about_us.html %}
-    {% include home/photos.html %}
-    {% include home/comments.html %}
-  </div>
-
-  {% include footer.html %}
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114317464-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-114317464-2');
-  </script>
-</body>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include head.html %}
+  <body>
+    {% include home/header.html %}
+    <div class="main">
+      {% include home/introduction.html %}
+      {% include home/where_is_it.html %}
+      {% include home/people.html %}
+      {% include home/where_to_stay.html %}
+      {% include home/transport.html %}
+      {% include home/meetups.html %}
+      {% include home/gifts.html %}
+      {% include home/about_us.html %}
+      {% include home/photos.html %}
+      {% include home/comments.html %}
+    </div>
+    {% include footer.html %}
+  </body>
+  {% include googleAnalytics.html %}
+</html>

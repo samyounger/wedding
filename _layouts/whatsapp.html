@@ -1,0 +1,26 @@
+<!-- Redirect All users at /whatsapp to the group chat in Whatsapp -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  {% include head.html %}
+  <body>
+    <div class="main whatsapp">
+      <h1>Redirecting you to</h1>
+      <h1><i class="fab fa-whatsapp"></i> WhatsApp <i class="fab fa-whatsapp"></i></h1>
+      <h2>Cora and Sam's wedding group</h2>
+      <div style="width:100%;height:0;padding-bottom:115%;position:relative;">
+        <iframe src="https://giphy.com/embed/K4w8tSUkxaONq" width="100%" height="100%" style="position:absolute;left:0;right:0;margin:0 auto;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      </div>
+      <p><a href="https://giphy.com/gifs/K4w8tSUkxaONq">via GIPHY</a></p>
+    </div>
+    {% include footer.html %}
+  </body>
+  <script>
+    window.onload = function redirectToWhatsApp() {
+      window.setTimeout(partB,4500);
+      function partB() {
+        window.location.replace("https://chat.whatsapp.com/LNoy3aoVy8TEcJeOqGI6kZ");
+      }
+    }
+  </script>
+</html>
