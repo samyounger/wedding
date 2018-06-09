@@ -17,3 +17,6 @@ include: ['_pages']
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Allows routes to be served without .html appended
+permalink: pretty
