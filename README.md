@@ -15,4 +15,6 @@ Published [HERE](http://samandcora.com)
 
 The site is hosted on AWS S3. It is deployed using [s3_website](https://github.com/laurilehmijoki/s3_website).
 
-The website is deployed using `s3_website push`
+The website can be deployed using `s3_website push`
+
+However I have set up a deploy script. Deployed using `$ sh deploy.sh`

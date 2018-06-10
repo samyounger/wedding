@@ -17,6 +17,9 @@ include: ['_pages']
 exclude:
   - Gemfile
   - Gemfile.lock
+  - deploy.sh
+  - s3_website.yml
+  - README.md
 
 # Allows routes to be served without .html appended
 permalink: pretty
