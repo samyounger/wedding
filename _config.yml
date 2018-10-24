@@ -1,10 +1,10 @@
 # Site settings
-title: Sam and Cora Wedding
+title: Sam and Cora Wedding - The big day
 email: sam.younger@gmail.com
 description: >
-  This is a website for Sam and Cora's wedding 2018
+  This is a website for Sam and Cora's wedding 2018 - the big day
 baseurl: ""
-url: "http://samandcora.com"
+url: "http://the-big-day.samandcora.com"
 github_username:  samyounger
 
 # Build settings
